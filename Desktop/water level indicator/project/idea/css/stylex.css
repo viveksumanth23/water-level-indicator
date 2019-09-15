@@ -1,0 +1,284 @@
+/*
+
+Template 2085 Neuron
+
+http://www.tooplate.com/view/2085-neuron
+
+*/
+
+body {
+		background: white;
+    font-family: 'Lora', serif;
+    font-style: normal;
+		font-weight: 300;
+    overflow-x: hidden;
+}
+
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+
+
+
+h2,h3 {
+  padding-bottom: 6px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+p {
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+.btn-success:focus {
+  background-color: #000;
+  border-color: transparent;
+}
+
+
+/*---------------------------------------
+    General               
+-----------------------------------------*/
+
+html{
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #4d638c;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+a:hover, a:active, a:focus {
+  color: #4d638c;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#about, 
+#gallery,
+#contact,
+#blog, 
+#blog-single-post {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.main-about,
+.main-single-post,
+.main-gallery,
+.main-contact {
+  height: 65vh;
+}
+
+.overlay {
+  background:rgba(255,255,0,0.3);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.parallax-section {
+  background-attachment: relative!important;
+  background-size: cover!important;
+  overflow: hidden;
+}
+
+
+/*---------------------------------------
+    Preloader section              
+-----------------------------------------*/
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-spinner-wordpress.sk-spinner {
+  background-color: #bfba55;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  -webkit-animation: sk-innerCircle 1s linear infinite;
+  animation: sk-innerCircle 1s linear infinite; 
+}
+
+.sk-spinner-wordpress .sk-inner-circle {
+  display: block;
+  background-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  border-radius: 8px;
+  top: 5px;
+  left: 5px; 
+}
+
+@-webkit-keyframes sk-innerCircle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes sk-innerCircle {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+*{
+  box-sizing:border-box;
+}
+h1{
+  font-family:'Open Sans',Arial,Helvetica,sans-serif;
+  font-size:72px;
+  color:#FFFFFF;
+  position: relative;
+  top:0px;
+  margin:0px;
+}
+h2{
+  font-family:'Open Sans',Arial,Helvetica,sans-serif;
+  font-size:48px;
+  color:#FFFFFF;
+  position:relative;
+  top:50px;
+}
+div {
+  inline-block;
+  padding:0px;
+  margin:0px;
+}
+#container {
+  height:80%;
+  width:50%;
+  margin:auto;
+  position:absolute;
+  top:19%;
+  left:10%;
+  background:#687F8B;
+
+}
+#tl{
+  height:50%;
+  width:50%;
+  position:absolute;
+  top:0%;
+  left:0%;
+  background:#FF5050S;
+  box-shadow:5px 7px 0px 0px #662020;
+  transition:all ease .35s;
+}
+#tr{
+  height:50%;
+  width:50%;
+  position:absolute;
+  top:0%;
+  left:50%;
+  background:#FF9966;
+  transition:all ease .35s;
+}
+#bl{
+  height:50%;
+  width:50%;
+  position:absolute;  
+  top:50%;
+  left:0%;
+  background:#6666FF;
+  transition:all ease .35s;
+}
+#br{
+  height:50%;
+  width:50%;
+  position:absolute;  
+  top:50%;
+  left:50%;
+  background:#9900FF;
+  transition:all ease .35s;
+}
+div p {
+  font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+  color:#FFFFFF;
+  font-weight:bold;
+  text-align:center;
+  position:relative;
+  font-size:50px;
+  top:30%;
+  margin:0px;
+}
+#tl:hover {
+  top:-1.56%;
+  left:-1.11%;
+  transition:all ease .35s;
+}
+
+#tr:hover {
+  top:-1.56%;
+  left:49.11%;
+  box-shadow:5px 7px 0px 0px #666629;
+  transition:all ease .35s;
+}
+
+#bl:hover {
+  top:49.11%;
+  left:-1.11%;
+    box-shadow:5px 7px 0px 0px #292966;
+  transition:all ease .35s;
+}
+#br:hover {
+  top:49.11%;
+  left:49.56%;
+  box-shadow:5px 7px 0px 0px #3D0066;
+  transition:all ease .35s;
+}
